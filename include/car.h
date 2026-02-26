@@ -12,8 +12,8 @@
 #define MAX_STR_LEN	64
 
 typedef struct{
-	char		brand[MAX_STR_LEN]
-	char		color[MAX_STR_LEN]
+	char		brand[MAX_STR_LEN];
+	char		color[MAX_STR_LEN];
 	char            serial_num[MAX_STR_LEN];
         char            reg_num[MAX_STR_LEN];
         int             year_made;
