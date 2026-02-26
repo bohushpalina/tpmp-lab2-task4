@@ -9,7 +9,7 @@ Group 11a
 
 ## Usage
 1. Compile with `make`
-2. Run with `./my_program`
+2. Run with `./bin/car`
 
 ## Additional Notes
-Additional notes about the project can go here.
+Variant 2.
