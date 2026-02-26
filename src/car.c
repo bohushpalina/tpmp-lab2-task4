@@ -1,6 +1,20 @@
+/* Author: Bohush Polina group 11a */
+
+/*
+ * This file implements the server side of the car module.
+ * It contains the logic to read car records from a text file,
+ * print them to the standard output, evaluate their age,
+ * and save cars older than 2 years to a new text file.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "car.h"
+
+/*
+ * Evaluates if a given car is older than 2 years.
+ * Returns 1 if true, 0 if false.
+ */
 
 static int is_car_old(
         const car_t     *car,
